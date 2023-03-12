@@ -27,7 +27,7 @@
 
 class FourWheeler(Parking):
     """Perform functions for 4-Wheelers"""
-    data_dict_f = {key: None for key in range(1, 31)}               #Total 30 Parking Slots For 4 wheeler
+    data_dict_f = {key: None for key in range(1, 301)}               #Total 300 Parking Slots For 4 wheeler
     revenue = 0
     price = 40
 
@@ -50,7 +50,7 @@ class FourWheeler(Parking):
 
 class TwoWheeler(Parking):
     """Perform functions for 2-Wheelers"""
-    data_dict_t = {key: None for key in range(1, 21)}               #Total 20 Parking Slots For 2 wheeler
+    data_dict_t = {key: None for key in range(1, 201)}               #Total 200 Parking Slots For 2 wheeler
     revenue = 0
     price = 20
 
